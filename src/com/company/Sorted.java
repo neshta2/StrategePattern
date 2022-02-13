@@ -1,6 +1,7 @@
 package com.company;
 
 class Sorter {
+
     Sorting srategy;
 
     public void sortSrategy(Sorting srategy) {
