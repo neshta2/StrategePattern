@@ -1,11 +1,7 @@
 package com.company;
 
-import java.util.Arrays;
-
 public class BabbleSort implements Sorting{
     public void sort(int[] arr){
-        System.out.println("Sort - пузырьком");
-        System.out.println("до:\t"+ Arrays.toString(arr));
         for (int barier=arr.length-1;barier>=0;barier--){
             for (int i=0;i<barier;i++){
                 if(arr[i]>arr[i+1]){
@@ -15,6 +11,5 @@ public class BabbleSort implements Sorting{
                 }
             }
         }
-        System.out.println("после:\t"+Arrays.toString(arr));
     }
 }
